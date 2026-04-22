@@ -1,3 +1,0 @@
-A viewer page that auto-populates a column with items scraped and parsed from a JSON file. Description column should be hidden until an item is clicked, at which point it unfurls from the right and populates with the selected item's details.
-
-//Should all data be parsed at once and then stored, or should a script parse the JSON on item-click and process it at-time?

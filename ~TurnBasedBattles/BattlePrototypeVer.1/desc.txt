@@ -1,0 +1,1 @@
+The very first. Just a basic, static-attribute player and enemy with only attack and defend options. Rudimentary turn system, basic health display. Nothing fancy.

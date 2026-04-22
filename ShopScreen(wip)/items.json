@@ -1,0 +1,99 @@
+{
+  "Lists": [
+    {
+      "name": "Weapons",
+      "items": [
+        {
+          "name": "Sword",
+          "description": "A sharp blade for close combat.",
+          "attributes": {
+            "attack": 10
+          },
+          "price": 100
+        },
+        {
+          "name": "Bow",
+          "description": "A ranged weapon for attacking from a distance.",
+          "attributes": {
+            "attack": 8,
+            "agility": 5
+          },
+          "price": 150
+        },
+        {
+          "name": "Staff",
+          "description": "A magical weapon for casting spells.",
+          "attributes": {
+            "attack": 3,
+            "magic": 10
+          },
+          "price": 200
+        },
+        {
+          "name": "Axe",
+          "description": "A heavy weapon for powerful strikes.",
+          "attributes": {
+            "attack": 12,
+            "agility": -2
+          },
+          "price": 120
+        }
+      ]
+    },
+    {
+      "name": "Armors",
+      "items": [
+        {
+          "name": "Helmet",
+          "description": "Protects the head from damage.",
+          "price": 50
+        },
+        {
+          "name": "Chestplate",
+          "description": "Protects the torso from damage.",
+          "price": 200
+        },
+        {
+          "name": "Leggings",
+          "description": "Protects the legs from damage.",
+          "price": 150
+        },
+        {
+          "name": "Boots",
+          "description": "Protects the feet from damage.",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "name": "Consumables",
+      "items": [
+        {
+            "name": "Rock",
+            "description": "rock :)",
+            "price": 1
+        }
+      ]
+    },
+    {
+      "name": "Gems",
+      "items": [
+        {
+            "name": "Ruby",
+            "description": "A precious red gemstone.",
+            "price": 500
+        },
+        {
+            "name": "Sapphire",
+            "description": "A precious blue gemstone.",
+            "price": 400
+        },
+        {
+            "name": "Emerald",
+            "description": "A precious green gemstone.",
+            "price": 450
+        }
+      ]
+    }
+  ]
+}

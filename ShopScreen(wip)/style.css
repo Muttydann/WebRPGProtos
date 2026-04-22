@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "MRBlack";
+    src: url("../src/fonts/MorrisRoman-Black.ttf");
+}
+
+@font-face {
+    font-family: "Varnyx";
+    src: url("../src/fonts/Varnyx-Regular.ttf")
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    gap: 0.5rem;
+
+    background-color:rgb(73, 67, 53)
+}
+
+#title {
+    font-family: "MRBlack";
+    font-weight: bold;
+    font-size: 6rem;
+    color: whitesmoke;
+}
+
+#library-viewer {
+    height: 100%;
+    justify-content: center;
+}
+
+#library-table {
+    justify-content: center;
+    height: 100%;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#shop-list {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -webkit-scrollbar {
+        display: none;
+    }
+
+    background-color: rgb(190, 186, 174);
+
+    max-width: 45%;
+    height: 100%;
+    gap: 0.5rem;
+    padding: 0 0 0 0;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgb(158, 123, 79);
+
+    border-color: black;
+}
+
+.nav-tabs .nav-link {
+    font-family: "MRBlack";
+    font-weight: bold;
+    font-size: 120%;
+    color: black;
+
+    border-style: solid;
+    border-width: 0 1px 0 1px;
+    border-color: black;
+    border-radius: 0;
+
+    background-color: rgb(222, 186, 141);
+}
+
+.nav-tabs button {
+    flex: auto;
+    height: 99%;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+    background-color:rgb(79, 66, 47);
+
+    border-color: black;
+}
+
+.tab-content {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+nav {
+    align-self: top;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 0 0;
+    background-color: white;
+
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgb(222, 186, 141);
+}
+li:focus {
+    background-color: bisque;
+}
+li:active {
+    background-color: goldenrod;
+    margin: 0 .1rem 0 .1rem;
+}
+
+#cart {
+    position: absolute;
+    bottom: 0px;
+    height: 6rem;
+    width: 125%;
+    margin: 0 -0.1rem 0 -0.1rem;
+    background-color:rgb(190, 186, 174);
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+
+    
+
+}
+
+#cart p {
+    font-family: "MRBlack";
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0.5rem;
+}
+
+
+#display-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 0.5rem;
+
+    background-color: rgb(190, 186, 174);
+}
+
+.item-name {
+    font-family: "Varnyx";
+    margin: 0 auto 0 0;
+    padding: .5rem 0 .5rem .5rem;
+
+}
+
+.item-detail-name {
+    font-family: "MRBlack";
+}
+
+.item-description {
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.item-price {
+    font-family: "Georgia";
+    font-weight: bold;
+    margin: 0 0 0 auto;
+    padding-right: .5rem;
+}
+
+.item-attribute {
+    font-family: "Georgia";
+    margin-bottom: 0;
+    margin-block: 0 0;
+}

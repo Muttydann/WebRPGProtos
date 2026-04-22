@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../headerScript.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <title>Turn-Based Battle Prototype 1</title>
+</head>
+<body>
+    <div id="main-window">
+        <div id="upper-display">
+            <div id="status-panel">
+                <div id="player-status">
+                    <h2>Player</h2>
+                    <p id="player-hp"></p>
+                </div>
+                <div id="enemy-status">
+                    <h2>Enemy</h2>
+                    <p id="enemy-hp"></p>
+                </div>
+            </div>
+            <div id="combat-log"></div>
+        </div>
+        <div id="action-panel">
+            <button id="attack-btn" class="action-btn">Attack</button>
+            <button id="defend-btn" class="action-btn">Defend</button>
+        </div>
+    </div>
+</body>
+</html>

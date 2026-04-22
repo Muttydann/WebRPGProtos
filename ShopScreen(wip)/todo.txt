@@ -1,0 +1,22 @@
+--- Easy-Imps (Minor effort) ---
+
+* Get the navbar tabs styled so the look better aligned with the rest of the visual elements.
+
+* Add support for item icons
+
+
+--- Real Work (Notable effort) ---
+
+* Add support for procedurally creating sections in the detail window for any arbritary number of attributes an item may have (equipment stats, rarity, effects, uses, etc.)
+
+* Implement a 'cart' system, where a quantity can be picked of each item and a total price calculated
+
+
+--- Projects (Significant Effort/New Concepts) ---
+
+* Add an interface for a user to create their own item, to be added to the shop (in their current browser session)
+
+  ** Inputs for category, Name, Attributes (w/attr. category), Description, and Price
+    *** Script should add new category tabs if needed
+
+  ** Should sanitize input (Easy to do, simply remove any special characters that aren't '!', '?', ',', "'", '"', or '.')

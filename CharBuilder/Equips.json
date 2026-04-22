@@ -1,0 +1,207 @@
+{
+    "ArmGuards": {
+        "Name": "Arm Guards",
+        "Type": "Arms",
+        "Description": "Protective gear for the arms, offering moderate defense against slashing and blunt attacks.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 2,
+        "Resistance": 0,
+        "TypeDef": [0, 2, 1, 0, 0, -1]
+    },
+
+    "CalRing": {
+        "Name": "Doom Ring",
+        "Type": "Accessory",
+        "Description": "A cursed ring that attracts peril.",
+        "AttrMods": [0, 0, 0, 0, 0, -10],
+        "TypeDef": [-10, -10, -10, -10, -10, -10]
+    },
+
+    "ChainHat": {
+        "Name": "Chain Coif",
+        "Type": "Head",
+        "Description": "A protective headgear made of interlinked metal rings, providing good defense against slashing attacks.",
+        "AttrMods": [0, 0, 0, 0, -1, 0],
+        "Defense": 3,
+        "Resistance": 0,
+        "TypeDef": [0, 2, 0, 0, 0, -1]
+    },
+
+    "Chainmail": {
+        "Name": "Chainmail",
+        "Type": "Body",
+        "Description": "A type of armor made of interlocking metal rings, providing good protection against slashing attacks.",
+        "AttrMods": [0, 0, 0, 0, -1, 0],
+        "Defense": 5,
+        "Resistance": 0,
+        "TypeDef": [0, 3, 0, 0, 0, -1]
+    },
+
+    "ClothHat": {
+        "Name": "Cloth Hood",
+        "Type": "Head",
+        "Description": "A padded cloth hood that offers slight protection from blunt strikes and cold weather.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 1,
+        "Resistance": 1,
+        "TypeDef": [2, 0, 0, 0, 2, 0]
+    },
+
+    "CoolHat": {
+        "Name": "Stylish Hat",
+        "Type": "Head",
+        "Description": "A fashionable hat that adds a touch of style to your outfit. Provides negligible protection, but boosts confidence.",
+        "AttrMods": [0, 0, 0, 0, 0, 1],
+        "Defense": 0,
+        "Resistance": 0,
+        "TypeDef": [0, 0, 0, 0, 0, 0]
+    },
+
+    "FireSword": {
+        "Name": "Flaming Sword",
+        "Type": "MainHand",
+        "Description": "A sword engulfed in magical flames, dealing extra fire damage on hit.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 8,
+        "damType": ["Slash", "Fire"],
+        "CritMod": 0,
+        "StatusChance": [0, 0, 0, 5, 0]
+    },
+
+    "IronHelm": {
+        "Name": "Iron Helm",
+        "Type": "Head",
+        "Description": "A sturdy iron helmet that provides solid protection against slashing attacks.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 4,
+        "Resistance": 1,
+        "TypeDef": [0, 4, 0, 0, 0, -2]
+    },
+
+    "IronLegs": {
+        "Name": "Iron Greaves",
+        "Type": "Legs",
+        "Description": "Heavy iron leg armor over cloth that offers good protection, but slows movement.",
+        "AttrMods": [0, 0, 0, 0, -1, 0],
+        "Defense": 4,
+        "Resistance": 1,
+        "TypeDef": [1, 3, 2, 0, 0, -1]
+    },
+
+    "KnightShield": {
+        "Name": "Heater Shield",
+        "Type": "OffHand",
+        "Description": "A sturdy metal shield that provides excellent protection against physical attacks, but is heavy and cumbersome.",
+        "AttrMods": [0, 0, 0, 0, -1, 0],
+        "Defense": 3,
+        "Resistance": 3,
+        "TypeDef": [3, 5, 4, 0, 0, -1]
+    },
+
+    "LeatherArmor": {
+        "Name": "Leather Armor",
+        "Type": "Body",
+        "Description": "Light armor made from treated animal hides, providing basic protection while allowing for greater mobility.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 3,
+        "Resistance": 1,
+        "TypeDef": [1, 2, 0, 1, 0, 1]
+    },
+
+    "Longsword": {
+        "Name": "Longsword",
+        "Type": "MainHand",
+        "Description": "A versatile sword that can be used for both slashing and thrusting attacks. Offers a good balance of speed and power.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 6,
+        "damType": ["Slash", "Pierce"],
+        "CritMod": 0,
+        "StatusChance": [3, 0, 0, 0, 0]
+    },
+
+    "Mace": {
+        "Name": "Mace",
+        "Type": "MainHand",
+        "Description": "A blunt weapon with a heavy head, designed to crush armor and bones.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 7,
+        "damType": ["Blunt"],
+        "CritMod": -1,
+        "StatusChance": [0, 0, 5, 0, 0]
+    },
+
+    "InitiateHood": {
+        "Name": "Initiate's Hood",
+        "Type": "Head",
+        "Description": "A simple hood worn by novice magic users, enchanted with minor protection from the elements and magical attacks.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 1,
+        "Resistance": 3,
+        "TypeDef": [0, 0, 0, 3, 3, 3]
+    },
+
+    "InitiateRobe": {
+        "Name": "Initiate's Robe",
+        "Type": "Body",
+        "Description": "A simple robe worn by novice magic users, enchanted with minor protection from the elements and magical attacks.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Defense": 1,
+        "Resistance": 6,
+        "TypeDef": [0, 0, 0, 8, 8, 8]
+    },
+
+    "InitiateStaff": {
+        "Name": "Initiate's Staff",
+        "Type": "MainHand",
+        "Description": "A simple wooden staff, suitable for basic magical attacks and self-defense.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 4,
+        "damType": ["Blunt"],
+        "CritMod": 2,
+        "StatusChance": [0, 5, 0, 0, 0],
+        "Flags": ["Staff"],
+        "FlagVals": [null]
+    },
+
+    "PlateArmor": {
+        "Name": "Plate Armor",
+        "Type": "Body",
+        "Description": "Heavy armor made of large metal plates, offering excellent protection from blades but reducing mobility.",
+        "AttrMods": [0, 0, 0, 0, -2, 0],
+        "Defense": 8,
+        "Resistance": 4,
+        "TypeDef": [0, 5, 0, 0, 0, -4]
+    },
+
+    "RegenRing": {
+        "Name": "Regen Ring",
+        "Type": "Accessory",
+        "Description": "A magical ring that slowly regenerates the wearer's health over time.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "TypeDef": [0, 0, 0, 0, 0, 0],
+        "Flags": ["Regen"],
+        "FlagVals": [5]
+    },
+
+    "Shortsword": {
+        "Name": "Shortsword",
+        "Type": "MainHand",
+        "Description": "A basic sword, light and easy to handle. Suitable for slashing or thrusting.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 5,
+        "damType": ["Slash", "Pierce"],
+        "CritMod": 3,
+        "StatusChance": [5, 0, 0, 0, 0]
+    },
+
+    "Spear": {
+        "Name": "Spear",
+        "Type": "MainHand",
+        "Description": "A long pole weapon with a pointed tip, ideal for thrusting attacks and keeping enemies at a distance.",
+        "AttrMods": [0, 0, 0, 0, 0, 0],
+        "Attack": 6,
+        "damType": ["Pierce"],
+        "CritMod": 0,
+        "StatusChance": [0, 0, 0, 0, 0]
+    }
+}
